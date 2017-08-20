@@ -1,10 +1,10 @@
-package cn.lsk.stockhelper.domain.dto;
+package cn.lsk.stockhelper.domain;
 
 import java.util.Date;
 
-public class DayPriceDTO {
+public class DayPrice {
 	
-	private CompanyDTO company;
+	private Company company;
 	private Date time;
 	private Double beginPrice;
 	private Double endPrice;
@@ -15,10 +15,10 @@ public class DayPriceDTO {
 	//成交量
 	private Long dayTurnover;
 	
-	public CompanyDTO getCompany() {
+	public Company getCompany() {
 		return company;
 	}
-	public void setCompany(CompanyDTO company) {
+	public void setCompany(Company company) {
 		this.company = company;
 	}
 	public Date getTime() {

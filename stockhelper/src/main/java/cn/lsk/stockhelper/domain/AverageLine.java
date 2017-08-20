@@ -3,8 +3,6 @@ package cn.lsk.stockhelper.domain;
 import java.util.Date;
 import java.util.List;
 
-import cn.lsk.stockhelper.domain.dto.DayPriceDTO;
-
 public class AverageLine {
 	private Date date;
 	private double averageLine;

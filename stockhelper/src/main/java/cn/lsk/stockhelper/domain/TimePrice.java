@@ -1,17 +1,17 @@
-package cn.lsk.stockhelper.domain.dto;
+package cn.lsk.stockhelper.domain;
 
 import java.util.Date;
 
-public class TimePriceDTO {
+public class TimePrice {
 	
-	private CompanyDTO company;
+	private Company company;
 	private Date day;
 	private Double price;
 	
-	public CompanyDTO getCompany() {
+	public Company getCompany() {
 		return company;
 	}
-	public void setCompany(CompanyDTO company) {
+	public void setCompany(Company company) {
 		this.company = company;
 	}
 	public Date getDay() {

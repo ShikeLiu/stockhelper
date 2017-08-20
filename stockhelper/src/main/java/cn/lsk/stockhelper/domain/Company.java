@@ -1,6 +1,6 @@
-package cn.lsk.stockhelper.domain.dto;
+package cn.lsk.stockhelper.domain;
 
-public class CompanyDTO {
+public class Company {
 	
 	private int stockCode;
 	private String companyName;
